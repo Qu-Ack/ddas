@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Download Detector",
+  "version": "1.0",
+  "description": "Detects when a download starts or completes.",
+  "permissions": [
+    "downloads",
+    "downloads.open",
+    "notifications"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
